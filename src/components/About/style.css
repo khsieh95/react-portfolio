@@ -1,0 +1,15 @@
+.row {
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.UW {
+  color: rgb(56, 0, 121);
+  font-weight: bold;
+}
+.image {
+  height: 450px;
+  width: 300px;
+}
