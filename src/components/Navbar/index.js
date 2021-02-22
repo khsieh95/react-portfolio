@@ -3,21 +3,24 @@ import "./style.css";
 
 function Navbar() {
   return (
-    <div className="navbar-fixed">
+    <div className="navbar-fixed" id="about">
       <nav>
         <div className="nav-wrapper">
-          <a href="#!" className="brand-logo">
+          <a href="#about" className="brand-logo nav-text">
             Kevin Hsieh
           </a>
-          <ul className="right hide-on-med-and-down">
+          <ul className="right hide-on-med-and-down nav-text">
             <li>
-              <a href="sass.html">About</a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a href="badges.html">Projects</a>
+              <a href="#resume">Resume</a>
             </li>
             <li>
-              <a href="badges.html">Contact</a>
+              <a href="#projects">Projects</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>

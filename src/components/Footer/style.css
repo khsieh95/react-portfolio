@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(214, 214, 214);
+}
+
+.page-footer {
+  background-color: black;
+}
+
+#footer-row {
+  margin-bottom: 0%;
+}
+
+.footer-link {
+  margin-top: 5%;
+  display: flex;
+  justify-content: left;
+}

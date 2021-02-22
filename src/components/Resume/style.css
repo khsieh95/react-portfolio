@@ -2,3 +2,13 @@
   margin: 0 auto;
   text-align: center;
 }
+
+#view-resume {
+  margin-right: 1%;
+  background-color: black;
+}
+
+#download-resume {
+  margin-left: 1%;
+  background-color: black;
+}

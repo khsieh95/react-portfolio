@@ -8,10 +8,11 @@ function Resume() {
       <br></br>
       <br></br>
       <br></br>
-      <div className="row">
-        <div className="col s6 m6 l6">
+      <div className="row" id="resume-row">
+        <div className="col s12 ">
           <a
-            className="waves-effect waves-light btn"
+            id="view-resume"
+            className="waves-effect waves-light btn instructure_file_link instructure_scribd_file auto_open"
             href="https://github.com/khsieh95/the-portfolio/files/5785350/Kevin-Hsieh-Resume.PDF"
             target="_blank"
           >
@@ -19,9 +20,9 @@ function Resume() {
             View Resume
             <i className="material-icons right">open_in_new</i>
           </a>
-        </div>
-        <div className="col s6 m6 l6">
+
           <a
+            id="download-resume"
             className="waves-effect waves-light btn"
             href="https://github.com/khsieh95/the-portfolio/files/5785350/Kevin-Hsieh-Resume.PDF"
             download

@@ -1,0 +1,21 @@
+.hyperlink {
+  text-align: center;
+  color: blue !important;
+  margin-right: 0% !important;
+}
+
+.container {
+  width: 100%;
+}
+
+.card-image {
+  transition: 0.2s;
+}
+
+.card-image:hover {
+  transform: scale(1.5);
+}
+
+.card-font {
+  color: black !important;
+}

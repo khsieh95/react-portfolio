@@ -3,22 +3,23 @@ import "./style.css";
 
 function About() {
   return (
-    <div>
-      <div className="row">
+    <div className="about-wrapper">
+      <div className="row" id="about-row">
         <div className="col s6">
-          <p>
-            Hello! My name is Kevin and I'm an excited Full-Stack web developer.
-            I gained my education from the{" "}
+          <p className="about-text">
+            Hello! My name is Kevin and I'm a Full-Stack web developer. I gained
+            my education from the{" "}
             <span className="UW">
               University of Washington Coding Bootcamp{" "}
             </span>
             , where I gained experience with HTML5, CSS, Javascript, jQuery,
-            Express.js, React.js, Node.js, MongoDB/Mongoose, MySQL. I plan to
-            get learn and pursue new languages including Python and C++. Coming
-            from a background on the other side of the spectrum (medical
+            Express.js, React.js, Node.js, MongoDB/Mongoose, MySQL. Moving
+            forward, I plan to learn and pursue new languages including Python
+            and C++, as well as becoming a certified AWS cloud practitioner.
+            Coming from a background on the other side of the spectrum (medical
             sciences and entrepreneurship), this program has been quite the
-            journey. However, I am excited to continue developing my new skills,
-            and applying them the real world.
+            journey. However, I am excited to continue developing my skills, and
+            apply them in the real world.
           </p>
         </div>
         <div className="col s6">
