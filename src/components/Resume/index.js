@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import resume from "../files/Kevin-Hsieh-Resume.PDF";
 
 function Resume() {
   return (
@@ -12,8 +13,8 @@ function Resume() {
         <div className="col s12 ">
           <a
             id="view-resume"
-            className="waves-effect waves-light btn instructure_file_link instructure_scribd_file auto_open"
-            href="https://github.com/khsieh95/the-portfolio/files/5785350/Kevin-Hsieh-Resume.PDF"
+            className="waves-effect waves-light btn "
+            href={resume}
             target="_blank"
           >
             {" "}
@@ -24,8 +25,8 @@ function Resume() {
           <a
             id="download-resume"
             className="waves-effect waves-light btn"
-            href="https://github.com/khsieh95/the-portfolio/files/5785350/Kevin-Hsieh-Resume.PDF"
-            download
+            href={resume}
+            download="Kevin-Hsieh-Resume.pdf"
           >
             Download Resume
             <i className="material-icons right">file_download</i>
