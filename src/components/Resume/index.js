@@ -1,6 +1,10 @@
 import React from "react";
 import "./style.css";
+<<<<<<< HEAD
 import resume from "../files/Kevin-Hsieh-Tech-Resume.pdf";
+=======
+import resume from "../files/Khsieh.pdf";
+>>>>>>> 0eb26c1375d35ebc51d48fbb76515608ac74cd48
 
 function Resume() {
   return (

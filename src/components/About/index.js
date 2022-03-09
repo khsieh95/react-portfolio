@@ -12,14 +12,15 @@ function About() {
             <span className="UW">
               University of Washington Coding Bootcamp{" "}
             </span>
-            , where I gained experience with HTML5, CSS, Javascript, jQuery,
+            {/* , where I gained experience with HTML5, CSS, Javascript, jQuery,
             Express.js, React.js, Node.js, MongoDB/Mongoose, MySQL. Moving
             forward, I plan to learn and pursue new languages including Python
             and C++, as well as becoming a certified AWS cloud practitioner.
             Coming from a background on the other side of the spectrum (medical
             sciences and entrepreneurship), this program has been quite the
             journey. However, I am excited to continue developing my skills, and
-            apply them in the real world.
+            apply them in the real world. */}
+            blah blah blah hi hi hi
           </p>
         </div>
         <div className="col s6">

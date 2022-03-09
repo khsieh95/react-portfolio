@@ -79,8 +79,8 @@ function Projects() {
         <div className="col s12 m4">
           <div className="card">
             <div className="card-image">
-              <img src="https://user-images.githubusercontent.com/74025123/103579954-264f8400-4e8e-11eb-91d7-90470546696b.png"></img>
-              <span className="card-title">Project 3: W.I.P</span>
+              <img src="screenshot/litzia"></img>
+              <span className="card-title">Project 3: Litzia</span>
             </div>
             <div className="card-content">
               <p>
