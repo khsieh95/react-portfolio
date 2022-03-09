@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import resume from "../files/Kevin-Hsieh-Resume.PDF";
+import resume from "../files/Kevin-Hsieh-Tech-Resume.pdf";
 
 function Resume() {
   return (
@@ -26,7 +26,7 @@ function Resume() {
             id="download-resume"
             className="waves-effect waves-light btn"
             href={resume}
-            download="Kevin-Hsieh-Resume.pdf"
+            download="Kevin-Hsieh-Tech-Resume.pdf"
           >
             Download Resume
             <i className="material-icons right">file_download</i>
